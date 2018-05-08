@@ -1,0 +1,17 @@
+<mat-drawer-container>
+<mat-drawer mode="side" opened="true" class="side-nav">
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <div>
+      <ul class="nav navbar-nav">
+        <li class="col-md-12"><a routerLink="./home" class="active">HTML Home</a></li>
+        <li class="col-md-12"><a routerLink="./basic" class="active">HTML Basic</a></li>
+        <li class="col-md-12"><a routerLink="./elements" class="active">HTML elements</a></li>
+        <li class="col-md-12"><a routerLink="./attributes" class="active">HTML Attributes</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</mat-drawer>
+<mat-drawer-content><router-outlet></router-outlet></mat-drawer-content>
+</mat-drawer-container>
